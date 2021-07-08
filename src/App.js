@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+import Diary from './components/Diary';
+import ErrorBoundary from './components/ErrorBoundary';
+import Record from './components/Record';
+import Register from './components/Register';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="oldMapBg" />
+      <div className="rpgui-content">
+        <Router>
+          <Switch>
+            <Route path="/register">
+              <ErrorBoundary><Register /></ErrorBoundary>
+            </Route>
+            <Route path="/record"><Record /></Route>
+            <Route path="/diary"><Diary /></Route>
+          </Switch>
+        </Router>
+      </div>
+    </>
   );
 }
 
