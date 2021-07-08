@@ -1,5 +1,5 @@
 const TEAM_API = 'https://script.google.com/macros/s/AKfycbwXFdcsmA5c_-O30lfN5Ks3OGYboXzrH09gdnwGUCUXXiUe_TKfPKmCYo2QZIPrO4LQ/exec';
-const ACTIVITY_API = 'https://script.google.com/macros/s/AKfycbwCyqKtYQLS01kuRsciL3E03-Tl-Y_0ZwDWHV_u_WuPiUllwSzpdyTC6lmovHyNAfla/exec';
+const ACTIVITY_API = 'https://script.google.com/macros/s/AKfycbz0-nFa4Q6tqvaw2IblG6CfrlIUsR9qYVWv-OoyiKU3UkLDPdg9iAuVRqTY84oGku_j/exec';
 
 /**
  * Append search parameters after the URL.

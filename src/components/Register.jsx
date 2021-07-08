@@ -10,14 +10,20 @@ function Register() {
   const [ modalState, setNone, setLoading, setCostome ] = useModal();
   const signEl = useRef(null);
 
+  const getRoleClass = (username) => {
+    const user = memberList.find((member) => member.username === username);
+    return user?.roleClass;
+  };
+
   const getFormData = (element) => {
     const formData = new FormData(element);
     const params = {};
     for (const [key, value] of formData.entries()) {
       params[key] = value;
     }
+    params.role = getRoleClass(params.username);
     return params;
-  }
+  };
 
   const registerActivity = (e) => {
     setLoading();
@@ -29,7 +35,7 @@ function Register() {
       setCostome(error?.message);
     });
     e.preventDefault();
-  }
+  };
 
   useEffect(() => {
     getMemberList().then((memberList) => { setMemberList(memberList); });
@@ -60,7 +66,7 @@ function Register() {
               <p>進行補救，務必協助騎士團達成任務。</p>
               <label><strong>署名</strong></label>
             </div>
-            <select name="username" ref={signEl} defaultValue="" require>
+            <select name="username" ref={signEl} defaultValue="" required>
               {memberList.map(({ username }) => <option key={username} value={username}>{username}</option>)}
             </select>
             <hr />
