@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/n2-exercise-challenge/static/css/main.b6fb6171.chunk.css",
-    "main.js": "/n2-exercise-challenge/static/js/main.03733d76.chunk.js",
-    "main.js.map": "/n2-exercise-challenge/static/js/main.03733d76.chunk.js.map",
-    "runtime-main.js": "/n2-exercise-challenge/static/js/runtime-main.aa420223.js",
-    "runtime-main.js.map": "/n2-exercise-challenge/static/js/runtime-main.aa420223.js.map",
-    "static/js/2.1e8be98c.chunk.js": "/n2-exercise-challenge/static/js/2.1e8be98c.chunk.js",
-    "static/js/2.1e8be98c.chunk.js.map": "/n2-exercise-challenge/static/js/2.1e8be98c.chunk.js.map",
-    "static/js/3.8c2c3f9d.chunk.js": "/n2-exercise-challenge/static/js/3.8c2c3f9d.chunk.js",
-    "static/js/3.8c2c3f9d.chunk.js.map": "/n2-exercise-challenge/static/js/3.8c2c3f9d.chunk.js.map",
+    "main.js": "/n2-exercise-challenge/static/js/main.d966ad95.chunk.js",
+    "main.js.map": "/n2-exercise-challenge/static/js/main.d966ad95.chunk.js.map",
+    "runtime-main.js": "/n2-exercise-challenge/static/js/runtime-main.e8429e49.js",
+    "runtime-main.js.map": "/n2-exercise-challenge/static/js/runtime-main.e8429e49.js.map",
+    "static/js/2.9fedf444.chunk.js": "/n2-exercise-challenge/static/js/2.9fedf444.chunk.js",
+    "static/js/2.9fedf444.chunk.js.map": "/n2-exercise-challenge/static/js/2.9fedf444.chunk.js.map",
+    "static/js/3.4fe8a3bb.chunk.js": "/n2-exercise-challenge/static/js/3.4fe8a3bb.chunk.js",
+    "static/js/3.4fe8a3bb.chunk.js.map": "/n2-exercise-challenge/static/js/3.4fe8a3bb.chunk.js.map",
     "index.html": "/n2-exercise-challenge/index.html",
     "static/css/main.b6fb6171.chunk.css.map": "/n2-exercise-challenge/static/css/main.b6fb6171.chunk.css.map",
-    "static/js/2.1e8be98c.chunk.js.LICENSE.txt": "/n2-exercise-challenge/static/js/2.1e8be98c.chunk.js.LICENSE.txt",
+    "static/js/2.9fedf444.chunk.js.LICENSE.txt": "/n2-exercise-challenge/static/js/2.9fedf444.chunk.js.LICENSE.txt",
     "static/media/App.css": "/n2-exercise-challenge/static/media/background.86ade9ee.jpg",
     "static/media/Register.css": "/n2-exercise-challenge/static/media/scroll_mid.e7310520.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.aa420223.js",
-    "static/js/2.1e8be98c.chunk.js",
+    "static/js/runtime-main.e8429e49.js",
+    "static/js/2.9fedf444.chunk.js",
     "static/css/main.b6fb6171.chunk.css",
-    "static/js/main.03733d76.chunk.js"
+    "static/js/main.d966ad95.chunk.js"
   ]
 }
