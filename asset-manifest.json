@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/n2-exercise-challenge/static/css/main.b6fb6171.chunk.css",
-    "main.js": "/n2-exercise-challenge/static/js/main.9fdf610e.chunk.js",
-    "main.js.map": "/n2-exercise-challenge/static/js/main.9fdf610e.chunk.js.map",
+    "main.js": "/n2-exercise-challenge/static/js/main.bca16153.chunk.js",
+    "main.js.map": "/n2-exercise-challenge/static/js/main.bca16153.chunk.js.map",
     "runtime-main.js": "/n2-exercise-challenge/static/js/runtime-main.e8429e49.js",
     "runtime-main.js.map": "/n2-exercise-challenge/static/js/runtime-main.e8429e49.js.map",
     "static/js/2.a36b6b85.chunk.js": "/n2-exercise-challenge/static/js/2.a36b6b85.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.e8429e49.js",
     "static/js/2.a36b6b85.chunk.js",
     "static/css/main.b6fb6171.chunk.css",
-    "static/js/main.9fdf610e.chunk.js"
+    "static/js/main.bca16153.chunk.js"
   ]
 }
